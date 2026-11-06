@@ -1,48 +1,51 @@
-# gridfinity-catalog
-This is a Catalog of Gridfinity designs and other relevant resources. Your pull requests are welcome!
+# gridfinity-catalog（中文版）
 
-# Introduction
-In April of 2022, [Zack Freedman](https://www.youtube.com/c/ZackFreedman/about) announced Gridfinity to the world in this video:
+> 本仓库是 [jeffbarr/gridfinity-catalog](https://github.com/jeffbarr/gridfinity-catalog) 的中文翻译版本，原作者为 Jeff Barr 及社区贡献者。
+> 为方便在各模型平台上搜索，表格中的设计名称、视频标题与文章标题保留英文原文；其余说明文字均已译为中文。最新收录内容请以原仓库为准。
+
+这是一份 Gridfinity 设计及相关资源的目录。欢迎提交 Pull Request！
+
+# 简介
+2022 年 4 月，[Zack Freedman](https://www.youtube.com/c/ZackFreedman/about) 通过下面这段视频向世界发布了 Gridfinity：
 
 [![Gridfinity: Your Ultimate Modular Workshop is FREE!](https://img.youtube.com/vi/ra_9zU-mnl8/0.jpg)](https://www.youtube.com/watch?v=ra_9zU-mnl8)
 
-Using a design based on earlier work by [Alexandre Chappel](https://www.youtube.com/channel/UCe1Aj6VEO299Yq4WkXdoD3Q), Zack designed a modular system that uses a gridded baseplate that accomodates blocks (also referred to as boxes or bins) sized to fit into one or more grid cells. After the publication of Zack's video, other designers began to adopt existing designs and to create new ones. This page is an attempt to catalog as many Gridfinity resources as possible.
+Zack 在 [Alexandre Chappel](https://www.youtube.com/channel/UCe1Aj6VEO299Yq4WkXdoD3Q) 早期作品的基础上，设计了一套模块化收纳系统：它使用带网格的底板，底板上可以放置尺寸为一个或多个网格单元的收纳块（也称为盒子或收纳盒）。Zack 的视频发布后，其他设计师开始改编现有设计并创作新的设计。本页面旨在尽可能多地收录 Gridfinity 相关资源。
 
-In July of 2022, Zack published a follow-on video to highlight a plethora of community designs:
+2022 年 7 月，Zack 又发布了一段后续视频，介绍了大量社区设计：
 
 [![3D Print a Modular Toolbox, Soldering Station, and More!](https://img.youtube.com/vi/Bd4NnHvTRAY/0.jpg)](https://www.youtube.com/watch?v=Bd4NnHvTRAY)
 
-# Getting Started with Gridfinity
+# Gridfinity 快速入门
 
-* Pick a baseplate
-* Pick some boxes
-* Print
-* Use
-* Share
-* Learn about parameterization and customization
+* 选择一块底板
+* 选择一些收纳盒
+* 打印
+* 使用
+* 分享
+* 学习参数化设计与自定义
 
-You can also start with the [Gridfinity Master Collection](https://www.printables.com/model/774975-gridfinity-master-collection-by-griddex) .
+你也可以从 [Gridfinity Master Collection（Gridfinity 大合集）](https://www.printables.com/model/774975-gridfinity-master-collection-by-griddex) 开始。
 
-# Contents
-- [Baseplates](#baseplates)
-- [Bins / Blocks](#binsblocks)
-- [Lids for bins](#lids-for-bins)
-- [Dashboard](#dashboard)
-- [Adapters](#adapters)
+# 目录
+- [底板](#底板)
+- [收纳盒](#收纳盒)
+- [收纳盒盖](#收纳盒盖)
+- [仪表板](#仪表板)
+- [转接件](#转接件)
 - [Stackfinity](#stackfinity)
-- [Templates](#templates])
-- [Everything Else](#everything-else)
-- [Online Generators](#online-generators)
-- [Offline Generators](#offline-generators)
-- [Apps](#Apps)
-- [Articles](#articles)
-- [Videos](#videos)
-- [Other Collections](#other-collections)
-- [Other Resources](#other-resources)
+- [模板](#模板)
+- [其他设计](#其他设计)
+- [在线生成器](#在线生成器)
+- [离线生成器](#离线生成器)
+- [应用程序](#应用程序)
+- [文章](#文章)
+- [视频](#视频)
+- [其他合集](#其他合集)
+- [其他资源](#其他资源)
 
-# Baseplates
-
-| Description | Sizes | Variants |Format | Date Added |
+# 底板
+| 描述 | 尺寸 | 变体 | 格式 | 添加日期 |
 | :---        |  ---: |     ---: |  ---: | :---       |
 | [1/2" Drive SAE/Metric Socket Tray](https://makerworld.com/en/models/1038894-1-2-drive-sae-metric-socket-tray-for-gridfinity#profileId-1023303) | 2x11 | 1 | STL,3MF | 2026-07-13 | 
 | [5x5 Gridfinity 4 Tray Storage Rack](https://makerworld.com/en/models/185805-5x5-gridfinity-4-tray-storage-rack?from=search#profileId-213034) | 5x5x4 | 1 | STL | 2025-07-19 |
@@ -125,9 +128,8 @@ You can also start with the [Gridfinity Master Collection](https://www.printable
 | [Weighted Baseplate 5x7.stl](https://social.thangs.com/m/187707) | 5x7 | 1 | STL | 2022-07-22 |
 | [Weighted Baseplate 7x7.stl](https://social.thangs.com/m/187945) | 7x7 | 1 | STL | 2022-07-22 |
 
-# Bins/Blocks
-
-| Description | Sizes | Variants |Format | Date Added |
+# 收纳盒
+| 描述 | 尺寸 | 变体 | 格式 | 添加日期 |
 | :---        |  ---: |     ---: |  ---: | :---       |
 | [11.6 mm diameter Gridfinity Coin Battery Storage](https://makerworld.com/en/models/3211165-11-6-mm-diameter-gridfinity-coin-battery-storage) | 1x1,1x2 | 21 | STL,3MF | 2026-09-28 |
 | [1/4" Drive Long Socket with Magnetic Base](https://www.printables.com/model/682454-gridfinity-14-drive-long-socket-with-magnetic-base) | 2x2 | 1 | STP | 2023-12-26 |
@@ -549,9 +551,8 @@ You can also start with the [Gridfinity Master Collection](https://www.printable
 | [Ziggurat Storage Bin](https://thangs.com/designer/Machenna56k/3d-model/Gridfinity%20%7C%20Ziggurat%20Storage%20Bin-216412) | 3x3 | 1 | STL | 2022-09-04 |
 | [Ziplock, Wrap, and Kitchen Extra Containers](https://www.printables.com/model/892677-gridfinity-ziplock-wrap-and-kitchen-extra-containe) | 2x3-2x8 | 30 | STL | 2024-06-03 |
 
-# Lids for Bins
-
-| Description | Sizes | Variants | Format | Date Added |
+# 收纳盒盖
+| 描述 | 尺寸 | 变体 | 格式 | 添加日期 |
 | :---        | ---:  | ---:     | ---:   | ---:       |
 | [ANYLID - Click-Lock Stackable Lid](https://makerworld.com/en/models/1059434) | 1x1-2x4 | 28 | STL,OpenSCAD | 2025-02-03 |
 | [Hinged Captive Lid](https://www.printables.com/model/1255783-gridfinity-bin-with-hinged-captive-lid) | Any |  5  |  STL,Onshape | 2025-06-26 |
@@ -560,9 +561,8 @@ You can also start with the [Gridfinity Master Collection](https://www.printable
 | [Lids with Handles](https://www.printables.com/model/645622-gridfinity-lids-with-handles) | 1x1-5x5 | 25 | STL,SCAD | 2024-04-06 |
 | [Parametric Lids](https://thangs.com/designer/bigbrisco/3d-model/%23Gridfinity%20Parametric%20Lids-62072) | 1x1-3x3 | 7 | STL,F3D | 2024-04-06 |
 
-# Dashboard
-
-| Description |Format | Date Added |
+# 仪表板
+| 描述 | 格式 | 添加日期 |
 | :---        |  ---: | :---       |
 | [Gridfinity Dashboard Module for 8.8" 1920x480 Ultra-Wide Touch Screen and 3 M5Stack Dials](https://www.printables.com/model/691203-gridfinity-dashboard-module-for-88-1920x480-ultra-) | STL,F3D | 2024-02-13 |
 | [Gridfinity Dashboard Module for Loupedeck Live](https://www.printables.com/model/645175-gridfinity-dashboard-module-for-loupedeck-live) | STL,F3D | 2024-02-13|
@@ -571,35 +571,32 @@ You can also start with the [Gridfinity Master Collection](https://www.printable
 | [Dashboard Module for Stream Deck XL](https://www.printables.com/model/615377-gridfinity-dashboard-module-for-streamdeck-xl) | STL,F3D | 2024-01-25 |
 | [Dashboard Module for Stream Deck Plus](https://www.printables.com/model/615364-gridfinity-dashboard-module-for-streamdeck) | STL,F3D | 2024-01-25 |
 
-More [Dashboard Modules](https://www.printables.com/@mhwlng_888536/collections/920676).
+更多[仪表板模块](https://www.printables.com/@mhwlng_888536/collections/920676)。
 
-# Adapters
-
-| Description | Sizes | Variants |Format | Date Added |
+# 转接件
+| 描述 | 尺寸 | 变体 | 格式 | 添加日期 |
 | :---        |  ---: |     ---: |  ---: | :---       |
 | [Gridfinity Adapters](https://thangs.com/designer/atucom/3d-model/Gridfinity%2520Adapters-61462) | 1x1-5x5 | 1 | STL/F3D | 2022-07-28
 | [Height Adaptive Spacers](https://thangs.com/designer/bigbrisco/3d-model/%2523Gridfinity%2520Height%2520Adaptive%2520Spacers-61820) | various | 30 | STL | 2022-07-25 |
 
 # Stackfinity
-
-| Description | Sizes | Variants |Format | Date Added |
+| 描述 | 尺寸 | 变体 | 格式 | 添加日期 |
 | :---        |  ---: |     ---: |  ---: | :---       |
 | [Bases - Single](https://www.printables.com/model/1755532-stackfinity-bases-single) | 1x1-8x8 | 36 | STL | 2026-06-18 |
 | [Bases - Wire Shelves](https://www.printables.com/model/1755558-stackfinity-bases-wire-shelves) | 1x1-8x8 | 36 | STL | 2026-06-18 |
 | [Handles](https://www.printables.com/model/1725881-stackfinity-handles) | 1x3-8x24 | 86 | STL | 2026-06-18 |
 | [Tools](https://www.printables.com/model/1755580-stackfinity-tools) | - | 1 | STL | 2026-06-18 |
 
-[Learn more](https://www.printables.com/model/1755530-stackfinity-home/file) about Stackfinity.
+[了解更多](https://www.printables.com/model/1755530-stackfinity-home/file) Stackfinity 相关信息。
 
-# Templates
-| Description | Sizes | Variants |Format | Date Added |
+# 模板
+| 描述 | 尺寸 | 变体 | 格式 | 添加日期 |
 | :---        |  ---: |     ---: |  ---: | :---       |
 | [Base Template with Improved Holes and Weight Slots](https://www.printables.com/model/275757-gridfinity-base-template-with-improved-holes-and-w) | 1x1 | 2 | STEP,F3D,STL | 2022-10-26 |
 | [Template with Mid-Air Holes](https://www.printables.com/model/269834-gridfinity-template-modified-for-mid-air-holes) | 1x1 | 1 | 3MF,F3D | 2022-10-26 |
 
-# Everything Else
-
-| Description | Sizes | Variants |Format | Date Added |
+# 其他设计
+| 描述 | 尺寸 | 变体 | 格式 | 添加日期 |
 | :---        |  ---: |     ---: |  ---: | :---       |
 | [Binfinity Mk2 for 8u Gridfinity Bins](https://makerworld.com/en/models/1388935-binfinity-mk2-for-8u-gridfinity-bins#profileId-1438873) | 2x4 | 1 | STL,3MF | 2025-05-09 |
 | [Calipers](https://makerworld.com/en/models/1248671-gridfinity-calipers#profileId-1270740) | 4-7 | 4 | STL,3MF | 2025-07-19 |
@@ -651,149 +648,144 @@ More [Dashboard Modules](https://www.printables.com/@mhwlng_888536/collections/9
 | [Woodfinity Make Up Organizer](https://www.printables.com/model/1692022-woodworks-woodfinity-make-up-organizer-with-gridfi) | 4x4 | 6 | STL,3MF | 2026-10-01 |
 | [Gamekeeper Board Game Organizer](https://makerworld.com/en/models/3416408-gamekeeper-board-game-organiser-3d-print-files) | 3x3 | 19 | STL | 2026-10-13 |
 
-# Online Generators
+# 在线生成器
+* [CADifier](https://cadifier.georgs.lv/viewer.html?bundleId=75caa38b-9b07-48f8-b049-b2555cd0eee9%20) - Gridfinity 布局规划工具（[更多信息](https://www.reddit.com/r/gridfinity/comments/1kf8jk9/made_a_proof_of_concept_gridfinity_planner_using/)）。
+* [Parametric Gridfinity Web UI (perplexing labs)](https://gridfinity.perplexinglabs.com) - 生成自定义收纳盒和底座的 STL 文件。
+* [Gridfinity Bin Creator](https://gridfinity.bouwens.co/) - 生成自定义 Gridfinity 底板和收纳盒（分隔型、镂空型、实心型和轻量型）的 STL 文件。
+* [Gridfinity Parametric Web Generator](https://vector76.github.io/Web_OpenSCAD_Customizer/gridfinity_bins.html) - 生成自定义 Gridfinity 分隔收纳盒的 STL 文件。
+* [Gridfinity Onshape Bins/Bases](https://github.com/rugbymauri/onshape-gridfinity) - 基于 Onshape 模板制作收纳盒和底座。
+* [Layout Builder](https://mvpplaceholder.com/) - 布局工具。
+* [Gridfi](https://gridfi.cc/) - 在线配置器及打印服务。
+* [Gridfinity Generator](https://gridfinitygenerator.com/en) - 免费的交互式工具，轻松创建自定义 Gridfinity 3D 设计，可导出为 STL。
+* [ToolTrace](https://www.tooltrace.ai/) - 一键生成工具内衬。
+* [TraceBin](https://tracebin.app/#) - 由照片生成收纳盒 - 2026-09-19。
+* [TracetoForge](https://tracetoforge.com/) - 由照片生成 STL 工具内衬。支持 Gridfinity、Milwaukee Packout 及自定义托盘；支持多工具轮廓描摹、指槽控制，并可导出多种格式（STL、3MF、SVG、DXF）。
+* [Outline.Georgs.LV](https://outline.georgs.lv/) - 只需一张照片，即可为任意工具生成 SVG 路径和 Gridfinity 盒子。
+* [Gridfinity Extended Irregular Bins Generator](https://makerworld.com/en/models/1699341-gridfinity-extended-irregular-bins-generator#profileId-1804521) - 创建兼容 Gridfinity 的自定义收纳盒和杯子，形状不限于简单矩形。
+* [Parametric drawer and chest generator](https://makerworld.com/en/models/1792396-customizable-gridfinity-drawer-chest#profileId-1910290) - 生成自定义抽屉模块。可壁挂安装，抽屉标签架可自定义，可选用磁铁使抽屉保持关闭。
+* [Extrabold Gridfinity Baseplate Generator](https://www.extrabold.tools/gridfinity-baseplate) - 生成普通底板和骨架式底板，提供丰富选项。
+* [Edge-to-Edge Base Generator](https://www.traygen.ai/) - Gridfinity 底座，规划后直接打印。
+* [Drawer Organizer Designer](https://www.solidair.co/gridfinity) - 用于设计整个抽屉 Gridfinity 布局的网页工具。
+* [Gridfinity Refinery](https://gridfinity.us/) - 收纳盒和底板生成器。
+* [Tracemate](https://tracematehq.com/) - 根据照片生成自定义 Gridfinity 镂空槽位。
+* [Gridfinity Rebase](https://gridfinity.tools/rebase/) - 替换 STL 文件中的底座。
+* [GridPilot](https://gridpilot.us/) - AI 驱动的自定义 Gridfinity 托盘生成器。支持基于照片的工具识别、自动布局、3D 标签、按工具设置深度/颜色，以及 3MF 导出。
+* [Gridfinity Carve](https://gridfinity.liorbk.com/) - 根据照片雕刻收纳盒 - 2026-03-23。
+* [Gridfinity Layout Tool](https://gridfinitylayouttool.com) - 生成底板并规划抽屉布局 - 2026-03-23。
+* [Genie Crate](https://geniecrate.com/) - 输入尺寸，即可生成让抽屉 Gridfinity 化所需的全部模型 - 2026-03-24。
+* [Spacerless Gridfinity Bin Generator](https://makerworld.com/en/models/2230410-spacerless-gridfinity-bin-generator#profileId-2426632) - 塑造复杂布局 - 2026-04-01。
+* [GridPreview](https://www.gridpreview.app/) - 直接在浏览器中配置 Gridfinity 网格 - 2026-04-28。
+* [GridCrate](https://makerworld.com/en/models/2716394-gridcrate-parametric-gridfinity-basket#profileId-3008498) - 全参数化收纳篮 - 2026-04-28。
+* [Binforge](https://binforge.app/) - 设计 Gridfinity 的任意部件 - 2026-05-06。
+* [Gridfinity Studio](https://gridfinity.ftdesign.at/) - 点击 3 次即可生成适配抽屉的 Gridfinity 布局 - 2026-05-25。
+* [Gridfinity Cutout Maker](https://gridfinity-cutout.pages.dev/) - 2 分钟生成自定义内衬 - 2026-05-28。
+* [Gridfinity Center - Bin Generator](https://gridfinity.alextac.com/bin-generator) - 生成带隔间、取物弧面和磁铁孔的 Gridfinity 收纳盒 - 2026-06-08。
+* [Gridfinity Center - Grid Generator](https://gridfinity.alextac.com/grid-generator) - 生成各种尺寸和形状的 Gridfinity 标准网格 - 2026-06-08。
+* [Nabu Labels](https://nabulabels.com/) - 几秒钟内为 Gridfinity 制作标签 - 2026-06-19。
+* [Bin Customizer with Pred-Style Label](https://makerworld.com/en/models/2928141-gridfinity-bin-customizer-with-pred-style-label#profileId-3277680) - 可自定义的 Gridfinity 收纳盒，内置卡扣式标签座，适配 Pred 风格标签 - 2026-06-19。
+* [Label Generator for Gridfinity Bins](https://makerworld.com/en/models/769441-label-generator-gridfinity-bin#profileId-705079) - 制作定制标签 - 2026-06-19。
+* [Pocketry](https://pocketry.xyz/) - 将照片转换为可编辑的轮廓和 Gridfinity 收纳盒 - 2026-09-23。
+* [Gridfinity Label Generator](https://gridlabelstudio.com/) - 为 Gridfinity 收纳盒制作可直接打印、高度精确的 PNG 或 SVG 标签 - 2026-09-28。
+* [GridPitch](https://gridpitch.io/) - 以任意网格间距设计 Gridfinity 风格的抽屉收纳 - 2026-01-05。
+* [Gridmint](https://gridmint.net/en/) - 免费的浏览器端抽屉规划、收纳盒及底板生成工具（英语/德语界面）：提供家具模板（IKEA ALEX、PAX、Systainer、L-BOXX 等），可借助本地 AI 由照片生成自定义内衬，提供 200 多种特殊内衬，可导出为 STL、STEP、3MF 或可直接打印的 Bambu Studio 项目 - 2026-10-06。
+* [STLKit3D](https://stlkit3d.com/) - 免费、纯浏览器端运行的参数化 Gridfinity 收纳盒生成器，支持实时 3D 预览，可导出水密的二进制 STL - 2026-10-09。
+* [Vaseverse](https://vaseverse.org/) - 生成带装饰性表面的收纳盒 - 2026-10-17。
+* [3D MakerBench – Gridfinity Bin & Baseplate Generator](https://3dmakerbench.com/gridfinity-bin-generator) - 免费的浏览器端工具，可生成收纳盒（隔间、堆叠唇边、磁铁孔和螺丝孔）和底板（磁铁、螺丝孔、按打印平台尺寸拆分），支持 STL 下载 - 2026-10-26。
+* [3D MakerBench – Tool Cutout Generator](https://3dmakerbench.com/tool-cutout-generator) - 将工具放在 A4/Letter 纸上拍照，即可生成带等比例镂空和指槽的 Gridfinity 内衬 - 2026-10-26。
 
-* [CADifier](https://cadifier.georgs.lv/viewer.html?bundleId=75caa38b-9b07-48f8-b049-b2555cd0eee9%20) - Gridfinity Planner ([more info](https://www.reddit.com/r/gridfinity/comments/1kf8jk9/made_a_proof_of_concept_gridfinity_planner_using/)).
-* [Parametric Gridfinity Web UI (perplexing labs)](https://gridfinity.perplexinglabs.com) - Custom bins and bases as STL files.
-* [Gridfinity Bin Creator](https://gridfinity.bouwens.co/) - Generates custom Gridfinity baseplate and bin (divider, holey, solid, and light) STL files.
-* [Gridfinity Parametric Web Generator](https://vector76.github.io/Web_OpenSCAD_Customizer/gridfinity_bins.html) - Generates custom Gridfinity divider bin STL files.
-* [Gridfinity Onshape Bins/Bases](https://github.com/rugbymauri/onshape-gridfinity) - Make Bins and Bases from a Template for onshape.
-* [Layout Builder](https://mvpplaceholder.com/) - Layout tool.
-* [Gridfi](https://gridfi.cc/) - Configurator and printing service.
-* [Gridfinity Generator](https://gridfinitygenerator.com/en) - Easily create custom 3D Gridfinity designs with this free, interactive tool. Export your designs as STL.
-* [ToolTrace](https://www.tooltrace.ai/) - Tool inserts, made in one click.
-* [TraceBin](https://tracebin.app/#) - Photo to bin generation - 2026-09-19. 
-* [TracetoForge](https://tracetoforge.com/) - Photo-to-STL tool insert generator. Supports Gridfinity, Milwaukee Packout, and custom trays. Multi-tool tracing, finger notch control, and multiple export formats (STL, 3MF, SVG, DXF).
-* [Outline.Georgs.LV](https://outline.georgs.lv/) - Make an SVG path and Gridfinity box for any tool using only a picture.
-* [Gridfinity Extended Irregular Bins Generator](https://makerworld.com/en/models/1699341-gridfinity-extended-irregular-bins-generator#profileId-1804521) - Create custom Gridfinity-compatible bins and cups with shapes beyond simple rectangles.
-* [Parametric drawer and chest generator](https://makerworld.com/en/models/1792396-customizable-gridfinity-drawer-chest#profileId-1910290) - Generates custom drawers modules. Wall mountable, Customizable drawer label holder, Optional magnets to hold the drawer shut.
-* [Extrabold Gridfinity Baseplate Generator](https://www.extrabold.tools/gridfinity-baseplate) - Generate normal and skeletal baseplates, with many options.
-* [Edge-to-Edge Base Generator](https://www.traygen.ai/) - Gridfinity base, Planned to print.
-* [Drawer Organizer Designer](https://www.solidair.co/gridfinity) - Web tool to design full-drawer Gridfinity layouts.
-* [Gridfinity Refinery](https://gridfinity.us/) - Bin and baseplate generator.
-* [Tracemate](https://tracematehq.com/) - Custom gridfinity cutouts from a picture.
-* [Gridfinity Rebase](https://gridfinity.tools/rebase/) - Replace bases in STL files.
-* [GridPilot](https://gridpilot.us/) - AI-powered custom Gridfinity tray generator. Photo-based tool detection, auto-layout, 3D labels, per-tool depth/color, and 3MF export.
-* [Gridfinity Carve](https://gridfinity.liorbk.com/) - Carve bins from photos - 2026-03-23.
-* [Gridfinity Layout Tool](https://gridfinitylayouttool.com) - Generate baseplates and lay out drawers - 2026-03-23.
-* [Genie Crate](https://geniecrate.com/) - Share dimensions and generate everything needed to gridfinity your drawer - 2026-03-24.
-* [Spacerless Gridfinity Bin Generator](https://makerworld.com/en/models/2230410-spacerless-gridfinity-bin-generator#profileId-2426632) - Sculpt complex layouts - 2026-04-01.
-* [GridPreview](https://www.gridpreview.app/) - Configure a Gridfinity grid right in the browser - 2026-04-28.
-* [GridCrate](https://makerworld.com/en/models/2716394-gridcrate-parametric-gridfinity-basket#profileId-3008498) - fully parametric basket - 2026-04-28.
-* [Binforge](https://binforge.app/) - Design any part of Gridfinity - 2026-05-06.
-* [Gridfinity Studio](https://gridfinity.ftdesign.at/) - Generate drawer-fit Gridfinity layouts in 3 clicks - 2026-05-25.
-* [Gridfinity Cutout Maker](https://gridfinity-cutout.pages.dev/) - Generate custom inserts in 2 minutes - 2026-05-28.
-* [Gridfinity Center - Bin Generator](https://gridfinity.alextac.com/bin-generator) - Generate Gridfinity bins, complete with compartments, scoops, and magnet holes - 2026-06-08.
-* [Gridfinity Center - Grid Generator](https://gridfinity.alextac.com/grid-generator) - Generate Gridfinity standard grids for all sizes and shapes - 2026-06-08.
-* [Nabu Labels](https://nabulabels.com/) - Create labels for Gridfinity in seconds - 2026-06-19.
-* [Bin Customizer with Pred-Style Label](https://makerworld.com/en/models/2928141-gridfinity-bin-customizer-with-pred-style-label#profileId-3277680) - Customizable Gridfinity bins with a built-in snap-in holder for matching Pred-style labels - 2026-06-19.
-* [Label Generator for Gridfinity Bins](https://makerworld.com/en/models/769441-label-generator-gridfinity-bin#profileId-705079) - Create tailored labels - 2026-06-19.
-* [Pocketry](https://pocketry.xyz/) - Turn photographs into editable outlines and Gridfinity bins - 2026-09-23.
-* [Gridfinity Label Generator](https://gridlabelstudio.com/) - Make print-read labels for Gridfinity bins in PNG or SVG at exact heights - 2026-09-28.
-* [GridPitch](https://gridpitch.io/) - Design Gridfinity-style drawer organizers on any grid pitch - 2026-01-05.
-* [Gridmint](https://gridmint.net/en/) - Free drawer planner, bin and baseplate generator in the browser (English/German): furniture templates (IKEA ALEX, PAX, Systainer, L-BOXX …), custom inserts from a photo with local AI, 200+ special inserts, export as STL, STEP, 3MF or a ready-to-print Bambu Studio project - 2026-10-06.
-* [STLKit3D](https://stlkit3d.com/) - Free, client-side browser parametric Gridfinity bin generator with real-time 3D preview and watertight binary STL export - 2026-10-09.
-* [Vaseverse](https://vaseverse.org/) - Generate bins with decorative surfaces - 2026-10-17.
-* [3D MakerBench – Gridfinity Bin & Baseplate Generator](https://3dmakerbench.com/gridfinity-bin-generator) - Free, in-browser bins (compartments, stacking lip, magnet and screw holes) and baseplates (magnets, screw holes, split to fit your printer bed), STL download - 2026-10-26.
-* [3D MakerBench – Tool Cutout Generator](https://3dmakerbench.com/tool-cutout-generator) - Photo of your tools on A4/Letter paper to a Gridfinity insert with true-size cutouts and finger scoops - 2026-10-26.
+# 离线生成器
+* [Tracefinity](https://github.com/tracefinity/tracefinity) - Gridfinity 收纳盒生成器。
+* [Fusion Gridfinity Generator](https://github.com/Le0Michine/FusionGridfinityGenerator) - 用于生成收纳盒和底板的 Fusion 360 插件。
+* [Fusion Gridfinity Generator Mod](https://github.com/jonmooreai/fusion-gridfinity-mod) - 根据抽屉尺寸生成底板。
+* [Ultralight Bins - Parametric Generator Edition](https://www.printables.com/model/925520-gridfinity-ultra-light-bin-generator) - 创建你自己的 Gridfinity 收纳盒（OpenSCAD）。
+* [Gridbox Pro](https://gridboxpro.com/) - 适用于 Mac 和 Windows 的桌面应用，可根据工具照片描摹轮廓，设计 Gridfinity 收纳盒、底板和工具影子盒。分享的项目文件会保留全部设置，任何人都可以按自己的抽屉进行修改。可无限期免费试用、随意设计，一次性支付 150 美元即可解锁 STL 和 3MF 导出。 - 2026-10-16。
 
-# Offline Generators
-* [Tracefinity](https://github.com/tracefinity/tracefinity) - Gridfinity Bin Generator.
-* [Fusion Gridfinity Generator](https://github.com/Le0Michine/FusionGridfinityGenerator) - Fusion 360 add-in to generate bins and baseplates.
-* [Fusion Gridfinity Generator Mod](https://github.com/jonmooreai/fusion-gridfinity-mod) - Generate baseplate from draws dimensions.
-* [Ultralight Bins - Parametric Generator Edition](https://www.printables.com/model/925520-gridfinity-ultra-light-bin-generator) - Create your own Gridfinity bin (OpenSCAD).
-* [Gridbox Pro](https://gridboxpro.com/) - Desktop app for Mac and Windows that designs Gridfinity bins, baseplates and shadowboxes traced from a photo of your tools. Shared project files open with every setting, so anyone can change them for their own drawer. Try it free with no time limit and design as much as you like, then $150 once unlocks exporting STL and 3MF. - 2026-10-16.
+# 应用程序
+* [Baseplate Nesting Planner](https://arexey.github.io/public_tools/baseplate-nesting-planner/) - 针对给定空间规划所需底板块数最少的布局，并给出卡扣数量以及没有紧固件的拼缝位置。
+* [Sorted w/Gridfinity[(https://play.google.com/store/apps/details?id=com.gridfinity.drawerdesigner) - 抽屉布局设计工具。
+* [Tucked](https://tucked.me/) - iPhone 应用，可将照片或尺寸转换为自定义收纳托盘或 Gridfinity 收纳盒（42 mm 网格）并导出 STL；轮廓处理在设备本地完成。[App Store](https://apps.apple.com/us/app/tucked-gridfinity-tray-maker/id6811067667)。与 Gridfinity 的创作者无关联。 - 2026-10-25。
 
-# Apps
-* [Baseplate Nesting Planner](https://arexey.github.io/public_tools/baseplate-nesting-planner/) - Plans a minimum-plate baseplate layout for a given opening and reports the clip count and the seams that carry no fastener.
-* [Sorted w/Gridfinity[(https://play.google.com/store/apps/details?id=com.gridfinity.drawerdesigner) - Drawer layout designer.
-* [Tucked](https://tucked.me/) - iPhone app that turns a photo or dimensions into a custom storage tray or Gridfinity bin (42 mm grid) and exports STL; on-device outline processing. [App Store](https://apps.apple.com/us/app/tucked-gridfinity-tray-maker/id6811067667). Not affiliated with the Gridfinity creator. - 2026-10-25.
-
-# Articles
-
-* [Gridfinity: 3D Printed Super Quick Tool Storage And Retrieval](https://hackaday.com/2022/04/18/gridfinity-3d-printed-super-quick-tool-storage-and-retrieval/).
+# 文章
+* [Gridfinity: 3D Printed Super Quick Tool Storage And Retrieval](https://hackaday.com/2022/04/18/gridfinity-3d-printed-super-quick-tool-storage-and-retrieval/)。
 * [Gridfinity Modular Storage System: All You Need to Know](https://all3dp.com/2/gridfinity-simply-explained/)
-* [Gridinity Latching Baseplate Without Creep](https://www.printables.com/article/gridfinity-latching-baseplate-without-creep-1ND2Mjd) - 2026-02-23.
+* [Gridinity Latching Baseplate Without Creep](https://www.printables.com/article/gridfinity-latching-baseplate-without-creep-1ND2Mjd) - 2026-02-23。
 
-# Videos
+# 视频
+* [Organize Your Messy Workspaces and Drawers with Gridfinity! Hastag #Gridfinity](https://www.youtube.com/watch?v=ZhIF1O4_aj0) - 2022-07-04。
+* [A Quick Look at Gridfinity](https://www.youtube.com/watch?v=jJNx9FWgSM0) - 2022-07-04。
+* [Revenge Of The 5th | Gridfinity Enclosure Imperial Inspired](https://www.youtube.com/watch?v=Vo-mQe38-Bk) - 2022-07-04。
+* [Gridfinity Tips: 3D Printing Your New Workshop Organization System](https://www.youtube.com/watch?v=KtbKwAuwv9s) - 2022-09-08。
+* [To Gridfinity and Beyond - Decluttering my Workshop with Gridfinity](https://www.youtube.com/watch?v=hTjcp_R7Bbg) - 2022-09-11。
+* [Overkill Gridfinity Baseplate](https://www.youtube.com/watch?v=EWTE9uL3jnQ) - 2022-10-27。
+* [Store Anything Anywhere with Gridfinity! 20+ Weird Printable Organizers by Makers Like You!](https://www.youtube.com/watch?v=7FCwMq-rVsY) - 2022-12-06。
+* [My TOP 3D Printed Organization Systems](https://www.youtube.com/watch?v=kN8-9mgatTo) - 2023-03-20。
+* [Spiralized Gridfinity Bins](https://www.youtube.com/watch?v=kjh1qQ6FsXY) - 2023-03-21。
+* [Gridfinity is Parameteric?](https://www.youtube.com/watch?v=WBBFElrOziI) - 2023-03-21。
+* [Aluminum Gridfinity](https://www.youtube.com/watch?v=OesuCeZICQ4) - 2023-03-21。
+* [Gridfinity Print Progress](https://www.youtube.com/watch?v=yihv38j6xeM) - 2023-03-21。
+* [Gridfinity Using OnShape](https://www.youtube.com/watch?v=95REky02tWE) - 2023-03-30。
+* [Solve Any Workshop's Problem with 3D Printing](https://www.youtube.com/watch?v=iAPKETpnUeg) - 2024-04-01。
+* [Gridfinity: The one System to sort them all](https://www.youtube.com/watch?v=YSrZrXVKkp4) - 2024-10-11。
+* [Gridinity in the Machine Shop: 3d Printed Metrology Tool Organization](https://www.youtube.com/watch?v=RYA0xLryF-g) - 2024-10-14。
+* [Gridfinity for Dummies](https://www.youtube.com/watch?v=TvIvoY013xQ) - 2024-12-08。
+* [How to 3D Print Custom Tool Organizers for ANYTHING!](https://www.youtube.com/watch?v=kXay9wYWsGs) - 2025-01-18。
+* [Organizing my desk with Gridfinity](https://www.youtube.com/shorts/7bAygy7e-6o) - 2025-01-19。
+* [3D Printed Gridfinity is the ultimate storage solution & I LOVE IT!](https://www.youtube.com/shorts/0OvQQuecQdQ) - 2025-01-19。
+* [Gridfinity portable case. Organization transformed with a DIY parts case](https://youtu.be/Tw1E2MDxOxk) - 2025-01-19。
+* [Filling Up an Empty Toolcart with Gridfinity](https://www.youtube.com/watch?v=1zi0rHpEU7I) - 2025-01-20。
+* [Organising an IKEA ALEX drawer with Gridfinity](https://www.youtube.com/shorts/mVM563GjAlc) - 2025-01-23。
+* [Transforming my wife's bathroom drawer with #gridfinity!](https://www.youtube.com/watch?v=oYP4TYD8Jl0) - 2025-03-10。
+* [Use Gridfinity and 3D Printing in your Bathroom!](https://www.youtube.com/watch?v=2UAXMtez4qg) - 2025-03-10。
+* [How to Design and 3D Print the Perfect Storage System](https://www.youtube.com/watch?v=or2_79CTpPM) - 2025-04-10。
+* [Casting Gridfinity Baseplates](https://www.youtube.com/watch?v=HRkWixQssxc) - 2025-07-02。
+* [Gridfinity Shadow Maker Tutorial](https://www.youtube.com/watch?v=K45Y8rKlYDY) - 2025-07-07。
+* [Top 7 Things I Learned Printing Gridfinity](https://www.youtube.com/watch?v=wPt5_V2pAH8) - 2025-07-27。
+* [Foamfinity - Organizing my tech with foam and 3D printing](https://www.youtube.com/watch?v=kVjy84pQ4-w) - 2025-08-06。
+* [I Didn't Get Gridfinity... Then I Tried It](https://www.youtube.com/watch?v=AqYY10Gf2xg) - 2026-01-18。
+* [3D Printed Gridfinity Camera & Lens Holders](https://www.instagram.com/reels/DS1CG0lk28l/) - 2026-01-21。
+* [No Measuring! 2 Fast ways to Design Gridfinity Shadow Boxes](https://www.youtube.com/watch?v=fGtTYha84vc) - 2026-01-27。
+* [Fusion + Gridfinity: Design Custom Bins, Today!](https://www.youtube.com/watch?v=UPDoAWp2blk) - 2026-01-27。
+* [Fully Automated Gridfinity Storage System](https://www.youtube.com/watch?v=ivigm4jzyUE) - 2026-02-08。
+* [3D Printing Gridfinity Bin Tutorial](https://www.instagram.com/p/DTHK2AZiEAu/) - 2026-02-13。
+* [Who "Invented" Gridfinity?](https://www.youtube.com/watch?v=aiDHXKRxLeQ) - 2026-03-01。
+* [Gridfinity 2](https://www.youtube.com/watch?v=fUI2k1YA1KE) - 2026-03-16。
+* [Gridfinity Drillbit Bins](https://www.youtube.com/shorts/gA_ME_w8Wps) - 2026-03-16。
+* [ToolTrace.AI and Gridfinity - a match made in heaven](https://www.youtube.com/shorts/Z7xWVKxYvZ4) - 2026-03-17。
+* [Sandisk Drive Bin for IKEA ALEX Drawers](https://www.youtube.com/shorts/XSiztUP2K8M) - 2026-03-17。
+* [Xtool F2 & Gridfinity FTW!!](https://www.youtube.com/shorts/Te3UbtmLXSM) - 2026-03-24。
+* [Gridfinity Revisited - fasteners and small parts organization solutions](https://www.youtube.com/watch?v=lDtDploScb8) - 2026-04-22。
+* [Top 5 ways to generate Gridfinity models for FREE](https://www.youtube.com/watch?v=e7h4w56yacc) - 2026-05-11。
+* [Custom Gridfinity Bins for ANYTHING!](https://www.youtube.com/watch?v=_TtkaIe0ZKU) - 2026-05-12。
+* [Make Gridfinity Even Better with Half Sized Containers](https://www.youtube.com/watch?v=9JK4h4ROupU) - 2026-05-12。
+* [Fusion + Gridfinity: Custom Tool Shadowboxing, Today!](https://www.youtube.com/watch?v=N2C2LFqtCfQ) - 2026-05-12。
+* [6 Lessons learned creating and installing Gridfinity in my toolbox](https://www.youtube.com/watch?v=v8pl9xurgUk) - 2026-05-15。
+* [This FREE AI Tool Auto-Generates Gridfinity Bins!](https://www.youtube.com/watch?v=e3EhJJlWwws) - 2026-05-20。
+* [How To 3D Print A Compression Mold For Gridfinity Bins](https://www.youtube.com/watch?v=VYrx1LRttOc) - 2026-05-20。
+* [Generate Gridfinity Bins](https://www.youtube.com/watch?v=ZZkG9QdNQqQ) - 2026-05-28。
+* [Custom Gridfinity Bins Without Modeling Every Tool](https://www.youtube.com/watch?v=gnwr17fNdVs) - 2026-06-29。
+* [Laser Labeled Gridfinity](https://www.printables.com/model/1843612-gpgf-3x-wire-brush-gridfinity-bin) - 2026-10-01。
+* [Gridpitch - Gridfinity, never heard of her. Easiest gridfinity generator.](https://youtu.be/-Mq-gVTfGQg) - 2026-10-05。
 
-* [Organize Your Messy Workspaces and Drawers with Gridfinity! Hastag #Gridfinity](https://www.youtube.com/watch?v=ZhIF1O4_aj0), 2022-07-04.
-* [A Quick Look at Gridfinity](https://www.youtube.com/watch?v=jJNx9FWgSM0), 2022-07-04.
-* [Revenge Of The 5th | Gridfinity Enclosure Imperial Inspired](https://www.youtube.com/watch?v=Vo-mQe38-Bk), 2022-07-04.
-* [Gridfinity Tips: 3D Printing Your New Workshop Organization System](https://www.youtube.com/watch?v=KtbKwAuwv9s), 2022-09-08.
-* [To Gridfinity and Beyond - Decluttering my Workshop with Gridfinity](https://www.youtube.com/watch?v=hTjcp_R7Bbg) - 2022-09-11.
-* [Overkill Gridfinity Baseplate](https://www.youtube.com/watch?v=EWTE9uL3jnQ) - 2022-10-27.
-* [Store Anything Anywhere with Gridfinity! 20+ Weird Printable Organizers by Makers Like You!](https://www.youtube.com/watch?v=7FCwMq-rVsY) - 2022-12-06.
-* [My TOP 3D Printed Organization Systems](https://www.youtube.com/watch?v=kN8-9mgatTo) - 2023-03-20.
-* [Spiralized Gridfinity Bins](https://www.youtube.com/watch?v=kjh1qQ6FsXY) - 2023-03-21.
-* [Gridfinity is Parameteric?](https://www.youtube.com/watch?v=WBBFElrOziI) - 2023-03-21.
-* [Aluminum Gridfinity](https://www.youtube.com/watch?v=OesuCeZICQ4) - 2023-03-21.
-* [Gridfinity Print Progress](https://www.youtube.com/watch?v=yihv38j6xeM) - 2023-03-21.
-* [Gridfinity Using OnShape](https://www.youtube.com/watch?v=95REky02tWE) - 2023-03-30.
-* [Solve Any Workshop's Problem with 3D Printing](https://www.youtube.com/watch?v=iAPKETpnUeg) - 2024-04-01.
-* [Gridfinity: The one System to sort them all](https://www.youtube.com/watch?v=YSrZrXVKkp4) - 2024-10-11.
-* [Gridinity in the Machine Shop: 3d Printed Metrology Tool Organization](https://www.youtube.com/watch?v=RYA0xLryF-g) - 2024-10-14.
-* [Gridfinity for Dummies](https://www.youtube.com/watch?v=TvIvoY013xQ) - 2024-12-08.
-* [How to 3D Print Custom Tool Organizers for ANYTHING!](https://www.youtube.com/watch?v=kXay9wYWsGs) - 2025-01-18.
-* [Organizing my desk with Gridfinity](https://www.youtube.com/shorts/7bAygy7e-6o) - 2025-01-19.
-* [3D Printed Gridfinity is the ultimate storage solution & I LOVE IT!](https://www.youtube.com/shorts/0OvQQuecQdQ) - 2025-01-19.
-* [Gridfinity portable case. Organization transformed with a DIY parts case](https://youtu.be/Tw1E2MDxOxk) - 2025-01-19.
-* [Filling Up an Empty Toolcart with Gridfinity](https://www.youtube.com/watch?v=1zi0rHpEU7I) - 2025-01-20.
-* [Organising an IKEA ALEX drawer with Gridfinity](https://www.youtube.com/shorts/mVM563GjAlc) - 2025-01-23.
-* [Transforming my wife's bathroom drawer with #gridfinity!](https://www.youtube.com/watch?v=oYP4TYD8Jl0) - 2025-03-10.
-* [Use Gridfinity and 3D Printing in your Bathroom!](https://www.youtube.com/watch?v=2UAXMtez4qg) - 2025-03-10.
-* [How to Design and 3D Print the Perfect Storage System](https://www.youtube.com/watch?v=or2_79CTpPM) - 2025-04-10.
-* [Casting Gridfinity Baseplates](https://www.youtube.com/watch?v=HRkWixQssxc) - 2025-07-02.
-* [Gridfinity Shadow Maker Tutorial](https://www.youtube.com/watch?v=K45Y8rKlYDY) - 2025-07-07.
-* [Top 7 Things I Learned Printing Gridfinity](https://www.youtube.com/watch?v=wPt5_V2pAH8) - 2025-07-27.
-* [Foamfinity - Organizing my tech with foam and 3D printing](https://www.youtube.com/watch?v=kVjy84pQ4-w) - 2025-08-06.
-* [I Didn't Get Gridfinity... Then I Tried It](https://www.youtube.com/watch?v=AqYY10Gf2xg) - 2026-01-18.
-* [3D Printed Gridfinity Camera & Lens Holders](https://www.instagram.com/reels/DS1CG0lk28l/) - 2026-01-21.
-* [No Measuring! 2 Fast ways to Design Gridfinity Shadow Boxes](https://www.youtube.com/watch?v=fGtTYha84vc) - 2026-01-27.
-* [Fusion + Gridfinity: Design Custom Bins, Today!](https://www.youtube.com/watch?v=UPDoAWp2blk) - 2026-01-27.
-* [Fully Automated Gridfinity Storage System](https://www.youtube.com/watch?v=ivigm4jzyUE) - 2026-02-08.
-* [3D Printing Gridfinity Bin Tutorial](https://www.instagram.com/p/DTHK2AZiEAu/) - 2026-02-13.
-* [Who "Invented" Gridfinity?](https://www.youtube.com/watch?v=aiDHXKRxLeQ) - 2026-03-01.
-* [Gridfinity 2](https://www.youtube.com/watch?v=fUI2k1YA1KE) - 2026-03-16.
-* [Gridfinity Drillbit Bins](https://www.youtube.com/shorts/gA_ME_w8Wps) - 2026-03-16.
-* [ToolTrace.AI and Gridfinity - a match made in heaven](https://www.youtube.com/shorts/Z7xWVKxYvZ4) - 2026-03-17.
-* [Sandisk Drive Bin for IKEA ALEX Drawers](https://www.youtube.com/shorts/XSiztUP2K8M) - 2026-03-17.
-* [Xtool F2 & Gridfinity FTW!!](https://www.youtube.com/shorts/Te3UbtmLXSM) - 2026-03-24.
-* [Gridfinity Revisited - fasteners and small parts organization solutions](https://www.youtube.com/watch?v=lDtDploScb8) - 2026-04-22.
-* [Top 5 ways to generate Gridfinity models for FREE](https://www.youtube.com/watch?v=e7h4w56yacc) - 2026-05-11.
-* [Custom Gridfinity Bins for ANYTHING!](https://www.youtube.com/watch?v=_TtkaIe0ZKU) - 2026-05-12.
-* [Make Gridfinity Even Better with Half Sized Containers](https://www.youtube.com/watch?v=9JK4h4ROupU) - 2026-05-12.
-* [Fusion + Gridfinity: Custom Tool Shadowboxing, Today!](https://www.youtube.com/watch?v=N2C2LFqtCfQ) - 2026-05-12.
-* [6 Lessons learned creating and installing Gridfinity in my toolbox](https://www.youtube.com/watch?v=v8pl9xurgUk) - 2026-05-15.
-* [This FREE AI Tool Auto-Generates Gridfinity Bins!](https://www.youtube.com/watch?v=e3EhJJlWwws) - 2026-05-20.
-* [How To 3D Print A Compression Mold For Gridfinity Bins](https://www.youtube.com/watch?v=VYrx1LRttOc) - 2026-05-20.
-* [Generate Gridfinity Bins](https://www.youtube.com/watch?v=ZZkG9QdNQqQ) - 2026-05-28.
-* [Custom Gridfinity Bins Without Modeling Every Tool](https://www.youtube.com/watch?v=gnwr17fNdVs) - 2026-06-29.
-* [Laser Labeled Gridfinity](https://www.printables.com/model/1843612-gpgf-3x-wire-brush-gridfinity-bin) - 2026-10-01.
-* [Gridpitch - Gridfinity, never heard of her. Easiest gridfinity generator.](https://youtu.be/-Mq-gVTfGQg) - 2026-10-05.
+# 其他合集
+* [Gridfinity Library](https://makerworld.com/en/models/1709415-gridfinity-library#profileId-2044294) - 2026-02-23。
+* [Tooltrace Community](https://www.tooltrace.ai/community) - 2026-02-23。
+* [Desk Organizer System - Deskfinity](https://makerworld.com/en/models/826392-gridfinity-desk-organizer-system-deskfinity#profileId-780724) - 2026-05-12。
+* [Universal Toolbox Collection](https://makerworld.com/en/collections/2240372-gridfinity-universal-toolbox) - 2026-05-12。
+* [Socket Storage System](https://makerworld.com/en/collections/719890-gridfinity-socket-system) - 2026-05-25。
+* [Gridfinity DrawerFlow - Workshop](https://makerworld.com/en/collections/34127755-gridfinity-drawerflow-workshop) - 2026-08-31。
+* [Coin Battery Storage](https://makerworld.com/en/collections/7645422-gridfinity-battery-storage) - 2026-09-28。
 
-# Other Collections
-
-* [Gridfinity Library](https://makerworld.com/en/models/1709415-gridfinity-library#profileId-2044294) - 2026-02-23.
-* [Tooltrace Community](https://www.tooltrace.ai/community) - 2026-02-23.
-* [Desk Organizer System - Deskfinity](https://makerworld.com/en/models/826392-gridfinity-desk-organizer-system-deskfinity#profileId-780724) - 2026-05-12.
-* [Universal Toolbox Collection](https://makerworld.com/en/collections/2240372-gridfinity-universal-toolbox) - 2026-05-12.
-* [Socket Storage System](https://makerworld.com/en/collections/719890-gridfinity-socket-system) - 2026-05-25.
-* [Gridfinity DrawerFlow - Workshop](https://makerworld.com/en/collections/34127755-gridfinity-drawerflow-workshop) - 2026-08-31.
-* [Coin Battery Storage](https://makerworld.com/en/collections/7645422-gridfinity-battery-storage) - 2026-09-28. 
-
-# Other Resources
-
-* [gridfinity_openscad](https://github.com/vector76/gridfinity_openscad) - OpenSCAD code to generate baseplates and other blocks (2022-06-12).
-* [/r/gridfinity](https://www.reddit.com/r/gridfinity/) - Gridfinity sub-Reddit.
-* [Custom Gridfinity Bins](https://github.com/RashKash103/custom-gridfinity-bins) - Python Script: This project will allow you to create custom Gridfinity divider bins.
-* [Gridfinity Rebuilt in OpenSCAD](https://github.com/kennetek/gridfinity-rebuilt-openscad) - Parameterized OpenSCAD for baseplates and bins, including vase mode (2022-12-06).
-* [Gridfinity Extended OpenSCAD](https://github.com/ostat/gridfinity_extended_openscad) ([docs](https://docs.ostat.com/docs/openscad/gridfinity-extended)) - Parameterized OpenSCAD for baseplates and customizable bins (2024-02-14).
-* [cq-gridfinity](https://github.com/michaelgale/cq-gridfinity) - A python package for making various Gridfinity compatible objects such as baseplates, boxes, rugged boxes, and drawer spacers. Based on CadQuery. PyPI package available. (2024-01-09)
-* [Gridfinity Design Reference](https://gridfinity.xyz/specification/) - A reference tool for designing Gridfinity modules.
-* [Gridfinity Freaks](https://www.facebook.com/groups/894771558536705) - Facebook Community.
-* [Gridfinity FreeCAD Workbench](https://github.com/Stu142/FreeCAD-Gridfinity-Workbench) - Bin and baseplate generater using FreeCAD.
-* [dvng_gridfinity](https://github.com/Davang/dvng_gridfinity) - Gridfinity in FreeCAD (2025-07-14).
-* [Gridfinity for Grasshopper](https://www.food4rhino.com/en/app/gridfinity?lang=en) - Create Gridfinity baseplates, bins, and lids within Rhino (2025-12-22).
-* [Gridfinity Layout Tool](https://www.gridfinitylayouttool.com/) - Layout planner for Gridfinity (2026-01-10).
+# 其他资源
+* [gridfinity_openscad](https://github.com/vector76/gridfinity_openscad) - 用于生成底板及其他模块的 OpenSCAD 代码（2022-06-12）。
+* [/r/gridfinity](https://www.reddit.com/r/gridfinity/) - Gridfinity 的 Reddit 子版块。
+* [Custom Gridfinity Bins](https://github.com/RashKash103/custom-gridfinity-bins) - Python 脚本：用于创建自定义 Gridfinity 分隔收纳盒。
+* [Gridfinity Rebuilt in OpenSCAD](https://github.com/kennetek/gridfinity-rebuilt-openscad) - 用于底板和收纳盒的参数化 OpenSCAD 代码，支持花瓶模式（2022-12-06）。
+* [Gridfinity Extended OpenSCAD](https://github.com/ostat/gridfinity_extended_openscad) （[文档](https://docs.ostat.com/docs/openscad/gridfinity-extended)） - 用于底板和可定制收纳盒的参数化 OpenSCAD 代码（2024-02-14）。
+* [cq-gridfinity](https://github.com/michaelgale/cq-gridfinity) - 一个 Python 包，可制作底板、盒子、加固盒和抽屉垫块等各种兼容 Gridfinity 的物件。基于 CadQuery，已发布到 PyPI。（2024-01-09）
+* [Gridfinity Design Reference](https://gridfinity.xyz/specification/) - 设计 Gridfinity 模块时使用的参考工具。
+* [Gridfinity Freaks](https://www.facebook.com/groups/894771558536705) - Facebook 社群。
+* [Gridfinity FreeCAD Workbench](https://github.com/Stu142/FreeCAD-Gridfinity-Workbench) - 基于 FreeCAD 的收纳盒和底板生成器。
+* [dvng_gridfinity](https://github.com/Davang/dvng_gridfinity) - 在 FreeCAD 中使用 Gridfinity（2025-07-14）。
+* [Gridfinity for Grasshopper](https://www.food4rhino.com/en/app/gridfinity?lang=en) - 在 Rhino 中创建 Gridfinity 底板、收纳盒和盖子（2025-12-22）。
+* [Gridfinity Layout Tool](https://www.gridfinitylayouttool.com/) - Gridfinity 布局规划工具（2026-01-10）。
  

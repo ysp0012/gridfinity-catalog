@@ -5,6 +5,35 @@
  */
 
 /**
+ * 中文版：将中文章节名与表头映射回规则所使用的英文键名，
+ * 这样 rules/ 中的规则无需修改即可继续工作。
+ */
+const SECTION_ALIASES = {
+  '底板': 'Baseplates',
+  '收纳盒': 'Bins/Blocks',
+  '收纳盒盖': 'Lids for Bins',
+  '仪表板': 'Dashboard',
+  '转接件': 'Adapters',
+  '模板': 'Templates',
+  '其他设计': 'Everything Else',
+  '在线生成器': 'Online Generators',
+  '离线生成器': 'Offline Generators',
+  '应用程序': 'Apps',
+  '文章': 'Articles',
+  '视频': 'Videos',
+  '其他合集': 'Other Collections',
+  '其他资源': 'Other Resources',
+};
+
+const HEADER_ALIASES = {
+  '描述': 'Description',
+  '尺寸': 'Sizes',
+  '变体': 'Variants',
+  '格式': 'Format',
+  '添加日期': 'Date Added',
+};
+
+/**
  * Parse a markdown string into sections.
  * @param {string} markdown - The raw markdown content
  * @returns {Array<{name: string, startLine: number, content: string, tables: Array}>}
@@ -24,7 +53,7 @@ export function parseSections(markdown) {
         sections.push(currentSection);
       }
       currentSection = {
-        name: headingMatch[1].trim(),
+        name: SECTION_ALIASES[headingMatch[1].trim()] || headingMatch[1].trim(),
         startLine: i + 1,
         content: '',
         tables: [],
@@ -61,7 +90,7 @@ function parseTables(content, sectionStartLine) {
     // Detect a table header row: starts with |
     if (lines[i].trim().startsWith('|') && i + 1 < lines.length && isSeparatorRow(lines[i + 1])) {
       const headerLine = lines[i];
-      const headers = parseTableRow(headerLine);
+      const headers = parseTableRow(headerLine).map(h => HEADER_ALIASES[h] || h);
       const table = { headers, rows: [], startLine: sectionStartLine + i };
 
       // Skip header and separator

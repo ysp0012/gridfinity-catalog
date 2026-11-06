@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 
 /**
- * Gridfinity Catalog Validator
+ * Gridfinity 目录校验工具
  *
- * Usage:
- *   node validate/index.js [--verbose] [--section "Section Name"] [--errors-only]
+ * 用法：
+ *   node validate/index.js [--verbose] [--section "章节名"] [--errors-only]
  *
- * Validates the README.md against a set of configurable rules per section.
+ * 按章节使用一组可配置的规则校验 README.md。
+ * --section 参数请使用英文章节名（如 Baseplates），中文标题会在 parser.js 中自动映射。
  */
 
 import { readFileSync } from 'fs';
@@ -31,7 +32,7 @@ let markdown;
 try {
   markdown = readFileSync(readmePath, 'utf-8');
 } catch (err) {
-  console.error(`❌ Could not read README.md at ${readmePath}`);
+  console.error(`❌ 无法读取 README.md：${readmePath}`);
   console.error(err.message);
   process.exit(2);
 }
@@ -40,10 +41,10 @@ try {
 const sections = parseSections(markdown);
 
 if (verbose) {
-  console.log(`📄 Parsed ${sections.length} sections:`);
+  console.log(`📄 已解析 ${sections.length} 个章节：`);
   for (const s of sections) {
     const tableInfo = s.tables.length > 0
-      ? ` (${s.tables.reduce((sum, t) => sum + t.rows.length, 0)} rows in ${s.tables.length} table(s))`
+      ? `（${s.tables.length} 个表格，共 ${s.tables.reduce((sum, t) => sum + t.rows.length, 0)} 行）`
       : '';
     console.log(`   • ${s.name}${tableInfo}`);
   }
@@ -56,7 +57,7 @@ const engine = createEngine();
 if (verbose) {
   const summary = engine.getSummary();
   const totalRules = summary.global + Object.values(summary.sections).reduce((a, b) => a + b, 0);
-  console.log(`🔧 ${totalRules} rules loaded (${summary.global} global, ${Object.keys(summary.sections).length} sections with specific rules)`);
+  console.log(`🔧 已加载 ${totalRules} 条规则（全局规则 ${summary.global} 条，${Object.keys(summary.sections).length} 个章节有专属规则）`);
   console.log('');
 }
 
@@ -64,7 +65,7 @@ let sectionsToValidate = sections;
 if (filterSection) {
   sectionsToValidate = sections.filter(s => s.name.toLowerCase().includes(filterSection.toLowerCase()));
   if (sectionsToValidate.length === 0) {
-    console.error(`❌ No section found matching "${filterSection}"`);
+    console.error(`❌ 未找到与 "${filterSection}" 匹配的章节`);
     process.exit(2);
   }
 }
@@ -79,7 +80,7 @@ if (errorsOnly) {
 
 // --- Report ---
 if (filteredResults.length === 0) {
-  console.log('✅ No issues found!');
+  console.log('✅ 未发现问题！');
   process.exit(0);
 }
 
@@ -93,10 +94,10 @@ for (const r of filteredResults) {
 const errorCount = filteredResults.filter(r => r.severity === 'error').length;
 const warningCount = filteredResults.filter(r => r.severity === 'warning').length;
 
-console.log(`Found ${filteredResults.length} issue(s): ${errorCount} error(s), ${warningCount} warning(s)\n`);
+console.log(`共发现 ${filteredResults.length} 个问题：${errorCount} 个错误，${warningCount} 个警告\n`);
 
 for (const [section, issues] of grouped) {
-  console.log(`── ${section} (${ issues.length} issue(s)) ──`);
+  console.log(`── ${section}（${issues.length} 个问题）──`);
   for (const issue of issues) {
     const icon = issue.severity === 'error' ? '❌' : '⚠️';
     const lineInfo = issue.line ? `L${issue.line}` : '   ';
